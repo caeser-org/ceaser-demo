@@ -1,0 +1,5 @@
+# Reproduce the failure the same way CI does.
+command: go test -run TestLateRouteRegistrationSkippedNodes .
+attempts: 3
+timeout: 10m
+executor: local
